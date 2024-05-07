@@ -1,7 +1,7 @@
 const factorial = require('../factorial');
 
 describe ('Factorial', () =>{
-     it('should get a factorial of a positive number', () => {
+     it('should get a factorial of a positive whole number', () => {
         expect(factorial(3)).toBe(6);
      });
 

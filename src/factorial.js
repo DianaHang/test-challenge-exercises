@@ -1,5 +1,5 @@
 const factorial = (n) => {
-    if (n < 0 || n ) {
+    if (n < 0 || !Number.isInteger(n)) {
         return 0;
     }
 
